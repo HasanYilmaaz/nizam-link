@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nizam Hukuk Bürosu</title>
+<meta name="description" content="Nizam Hukuk Bürosu – yol tarifi, WhatsApp iletişim ve Google yorumu.">
+<meta name="theme-color" content="#14202e">
+<meta property="og:title" content="Nizam Hukuk Bürosu">
+<meta property="og:description" content="Yol tarifi alın, WhatsApp'tan yazın veya Google'da yorum bırakın.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314202e'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%23c9a96a'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #14202e;
+    --ink-2: #1c2b3c;
+    --paper: #f7f4ee;
+    --brass: #c9a96a;
+    --brass-soft: rgba(201, 169, 106, .16);
+    --text: #eef1f5;
+    --muted: #a9b3c1;
+    --card: rgba(255, 255, 255, .06);
+    --card-line: rgba(255, 255, 255, .10);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    background:
+      radial-gradient(120% 60% at 50% -10%, #2a3d55 0%, transparent 60%),
+      linear-gradient(180deg, var(--ink-2) 0%, var(--ink) 100%);
+    background-color: var(--ink);
+    color: var(--text);
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    padding: max(40px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+  }
+  main { width: 100%; max-width: 440px; display: flex; flex-direction: column; align-items: center; }
+
+  .crest {
+    width: 92px; height: 92px; border-radius: 50%;
+    display: grid; place-items: center;
+    border: 1px solid var(--brass);
+    box-shadow: 0 0 0 6px var(--brass-soft);
+    background: radial-gradient(circle at 50% 35%, #233449, var(--ink));
+    margin-top: 8px;
+  }
+  .crest span { font-family: "Cormorant Garamond", Georgia, serif; font-size: 48px; font-weight: 600; color: var(--brass); line-height: 1; transform: translateY(-2px); }
+
+  h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 600; font-size: 34px; letter-spacing: .01em;
+    margin: 22px 0 4px; text-align: center;
+  }
+  .tag { margin: 0; color: var(--brass); font-size: 12px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; }
+  .rule { width: 48px; height: 1px; background: var(--brass); opacity: .6; margin: 20px 0 8px; }
+  .addr { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.5; text-align: center; }
+
+  .links { width: 100%; display: flex; flex-direction: column; gap: 12px; margin-top: 32px; }
+  .btn {
+    display: flex; align-items: center; gap: 14px;
+    width: 100%; min-height: 68px; padding: 12px 18px;
+    border-radius: 16px;
+    background: var(--card);
+    border: 1px solid var(--card-line);
+    color: var(--text); text-decoration: none;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn:hover { background: rgba(255, 255, 255, .09); border-color: rgba(201, 169, 106, .5); }
+  .btn:active { transform: scale(.98); }
+  .btn:focus-visible { outline: 2px solid var(--brass); outline-offset: 3px; }
+  .icon { flex: none; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; }
+  .icon svg { width: 24px; height: 24px; }
+  .label { flex: 1; min-width: 0; }
+  .label strong { display: block; font-size: 16px; font-weight: 600; }
+  .label small { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .chev { flex: none; width: 18px; height: 18px; color: var(--muted); }
+
+  .maps .icon { background: #e8f0fe; color: #1a73e8; }
+  .wa .icon { background: #25d366; color: #fff; }
+  .review .icon { background: var(--brass); color: var(--ink); }
+
+  .btn.primary { background: var(--paper); border-color: var(--paper); color: var(--ink); }
+  .btn.primary .label small, .btn.primary .chev { color: #5b6574; }
+  .btn.primary:hover { background: #fff; }
+
+  footer { margin-top: auto; padding-top: 40px; color: var(--muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--muted); }
+
+  @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="crest" aria-hidden="true"><span>N</span></div>
+  <h1>Nizam Hukuk Bürosu</h1>
+  <p class="tag">Avukatlık &amp; Hukuki Danışmanlık</p>
+  <div class="rule" aria-hidden="true"></div>
+  <p class="addr">Osmanağa, Söğütlüçeşme Cad. No:56 K:2 D:52<br>Kadıköy / İstanbul</p>
+
+  <nav class="links" aria-label="Bağlantılar">
+    <a class="btn primary maps" href="https://www.google.com/maps/dir/?api=1&amp;destination=Nizam+Hukuk+B%C3%BCrosu&amp;destination_place_id=ChIJ-XpK9SS5yhQR2aZ2TWts9oI" target="_blank" rel="noopener">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span>
+      <span class="label"><strong>Yol Tarifi Al</strong><small>Google Haritalar'da aç</small></span>
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+
+    <a class="btn wa" href="https://wa.me/905545118553?text=Merhaba%2C%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.03C2.56 6.82 6.81 2.57 12.05 2.57c2.54 0 4.92.99 6.71 2.78a9.42 9.42 0 0 1 2.78 6.71c0 5.23-4.26 9.44-9.5 9.44zm8.08-17.52A11.35 11.35 0 0 0 12.04.63C5.75.63.63 5.75.63 12.04c0 2.01.53 3.97 1.52 5.7L.54 23.63l6.04-1.58a11.4 11.4 0 0 0 5.45 1.39h.01c6.29 0 11.41-5.12 11.41-11.41 0-3.05-1.19-5.91-3.34-8.06z"/></svg></span>
+      <span class="label"><strong>WhatsApp'tan Yazın</strong><small>0554 511 85 53</small></span>
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+
+    <a class="btn review" href="https://search.google.com/local/writereview?placeid=ChIJ-XpK9SS5yhQR2aZ2TWts9oI" target="_blank" rel="noopener">
+      <span class="icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg></span>
+      <span class="label"><strong>Google'da Yorum Yapın</strong><small>Görüşleriniz bizim için değerli</small></span>
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+
+  <footer>© <span id="y">2026</span> Nizam Hukuk Bürosu</footer>
+</main>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
